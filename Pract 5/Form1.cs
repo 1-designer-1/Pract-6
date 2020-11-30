@@ -52,9 +52,10 @@ namespace Pract_5
             textBox5.Text = ("(" + Multiply.First + " ; " + Multiply.Second + ")").ToString();
             Pair Multiply1 = Pair.Multiply2(pair1);
             textBox6.Text = ("(" + Multiply1.First + " ; " + Multiply1.Second + ")").ToString();
-
-
-
+            Pair Multiple = pair1 * pair2;
+            textBox7.Text = ("(" + Multiple.First + " ; " + Multiple.Second + ")").ToString();
+            Pair Multiple2 = pair1++;
+            textBox8.Text = ("(" + Multiple2.First + " ; " + Multiple2.Second + ")").ToString();
         }
 
 
