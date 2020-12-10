@@ -57,8 +57,8 @@ namespace Pract_5
         }
         public static Pair operator ++(Pair firstPair)
         {
-            return new Pair(firstPair.First * 2, firstPair.Second * 2);
-        }
+            return new Pair(firstPair.First * 2, firstPair.Second * 2); 
+        } 
 
 
 
